@@ -1,0 +1,5 @@
+
+notebook/.ipynb_checkpoints/gait_classification-checkpoint.ipynb
+notebook/.ipynb_checkpoints/dataset_processing-checkpoint.ipynb
+*.h5
+data/processed_data/data.csv
