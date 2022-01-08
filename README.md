@@ -1,10 +1,13 @@
 # Gait classification using smartphone sensors
+
 I used a simple architecture LSTM network to produce activity classification from XYZ accelerometer and gyrometer raw signals.
-Visualization of activities for one subject
+### Visualization of activities for one subject
+That might be an error in the processing of raw data since there are many non-labelled sequences. It might be aso caused by technical operation done on the user while doing the record, which are not labelled (something like 'sensor/signal check by operator').
 ![](./assets/run.png)
-Results of training
+### Training metrics
+Train/val loss steadily decreasing. However, Fscore is rather low because of low occurence classes.
 ![](./assets/train_metrics.png)
-Evaluation
+### Evaluation
 ![](./assets/confusion.png)
 
 # Data 📊
@@ -22,5 +25,6 @@ They can be downloaded [here](http://archive.ics.uci.edu/ml/datasets/Smartphone-
 - [ ] 3D trajectory reconstruction and visualization
 - [ ] Hyperparameter optimiszation.
 - [ ] Proper evaluation.
+- [ ] Data balance.
 
  
