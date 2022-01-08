@@ -4,10 +4,10 @@ I used a simple architecture LSTM network to produce activity classification usi
 This can de used to enchance people mobility
 ### Raw data processing
 ### Visualization of activities for one subject
-> That might be an error in the processing of raw data since there are many non-labelled sequences. It might be also caused by technical check of the user while doing the record, which are not labelled (something like 'sensor/signal check by operator').
+  That might be an error in the processing of raw data since there are many non-labelled sequences. It might be also caused by technical check of the user while doing the record, which are not labelled (something like 'sensor/signal check by operator').
 ![](./assets/run.png)
 ### Training metrics
-> Train/val loss steadily decreasing. However, Fscore is rather low because of low occurence classes.
+  Train/val loss steadily decreasing. However, Fscore is rather low because of low occurence classes.
 ![](./assets/train_metrics.png)
 ### Evaluation
 There might be an error in the ROC (to be confirmed). Data imbalance can bee seen in confusion matrix numbers
