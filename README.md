@@ -8,6 +8,7 @@ That might be an error in the processing of raw data since there are many non-la
 Train/val loss steadily decreasing. However, Fscore is rather low because of low occurence classes.
 ![](./assets/train_metrics.png)
 ### Evaluation
+There might be an error in the ROC (to be confirmed). Data imbalance can bee seen in confusion matrix numbers
 ![](./assets/confusion.png)
 
 # Data 📊
