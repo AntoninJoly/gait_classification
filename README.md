@@ -1,11 +1,18 @@
-# Gait classification using smartphone accelerometer and gyroscope sensors
+# Gait classification using smartphone sensors
+I used a simple architecture LSTM network to produce activity classification from XYZ accelerometer and gyrometer raw signals.
+Visualization of activities for one subject
+![](./assets/run.png)
+Results of training
+![](./assets/train_metrics.png)
+Evaluation
+![](./assets/confusion.png)
 
-TBD:
-- trajectory visualization
-- hyperparameter tuning
-- proper evaluation
+# Data 📊
+Data used in this project can be downloaded [here](http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions).
 
-Data taken from 
-https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
-http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions
+# To be done next 🛠
+- 3D trajectory reconstruction and visualization
+- Hyperparameter optimiszation.
+- Proper evaluation.
+
  
