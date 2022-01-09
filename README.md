@@ -3,6 +3,8 @@
 I used a simple architecture LSTM network to produce activity classification using raw signals from accelerometer and gyrometer of a smartphone.
 This can de used to enchance people mobility
 ### Raw data processing
+### Class content
+![](./assets/classes.png)
 ### Visualization of activities for one subject
 That might be an error in the processing of raw data since there are many non-labelled sequences. It might be also caused by technical check of the user while doing the record, which are not labelled (something like 'sensor/signal check by operator').
 ![](./assets/run.png)
@@ -10,7 +12,7 @@ That might be an error in the processing of raw data since there are many non-la
   Train/val loss steadily decreasing. Need to cinform the implmentation of fscore / precision / recall.
 ![](./assets/train_metrics.png)
 ### Evaluation
-There might be an error in the ROC (to be confirmed). Data imbalance can bee seen in confusion matrix numbers
+Since we have a high class imbalance, F1 score is more relevant for evaluation than ROC AUC because a high F1 score considers both precision and recall. Higher ROC AUC does not necessarily mean a better classifier in case of class imbalance.
 ![](./assets/confusion.png)
 
 # Data 📊
