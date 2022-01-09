@@ -1,7 +1,7 @@
 # Gait classification using smartphone sensors
 
 I used a simple architecture LSTM network to produce activity classification using raw signals from accelerometer and gyrometer of a smartphone.
-This can de used to enchance people mobility
+This can de used to enchance people mobility.
 ## Data content
 ### Data source 📊
 Data used in this project were created by
@@ -12,7 +12,7 @@ Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Luca Oneto(1) and Xavier Parra(2)
 har '@' smartlab.ws
 www.smartlab.ws
 ```
-They can be downloaded [here](http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions).
+and can be downloaded [here](http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions).
 ### Class content
 <img src="./assets/classes.png" alt="drawing" width="800"/>
 
