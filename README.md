@@ -4,7 +4,8 @@ I used a simple architecture LSTM network to produce activity classification usi
 This can de used to enchance people mobility
 ### Raw data processing
 ### Class content
-![](./assets/classes.png)
+<img src="./assets/classes.png" alt="drawing" width="800"/>
+
 ### Visualization of activities for one subject
 That might be an error in the processing of raw data since there are many non-labelled sequences. It might be also caused by technical check of the user while doing the record, which are not labelled (something like 'sensor/signal check by operator').
 ![](./assets/run.png)
