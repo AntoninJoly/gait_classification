@@ -10,7 +10,7 @@ This can de used to enchance people mobility
 That might be an error in the processing of raw data since there are many non-labelled sequences. It might be also caused by technical check of the user while doing the record, which are not labelled (something like 'sensor/signal check by operator').
 ![](./assets/run.png)
 ### Training metrics
-  Train/val loss steadily decreasing. Need to cinform the implmentation of fscore / precision / recall.
+  Train/val loss steadily decreasing. Good F1-score (0.926) for such a simple model without additionnal data care (over/under sampling)(normalization off signal was already done by data operator).
 ![](./assets/train_metrics.png)
 ### Evaluation
 Since we have a high class imbalance, F1 score is more relevant for evaluation than ROC AUC because a high F1 score considers both precision and recall. Higher ROC AUC does not necessarily mean a better classifier in case of class imbalance.
