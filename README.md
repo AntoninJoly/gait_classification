@@ -2,8 +2,8 @@
 
 I used a simple architecture LSTM network to produce activity classification using raw signals from accelerometer and gyrometer of a smartphone.
 This can de used to enchance people mobility.
-## Data content
-### Data source 📊
+## Data content 📊
+### Data source
 Data used in this project were created by
 ```
 Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Luca Oneto(1) and Xavier Parra(2)
